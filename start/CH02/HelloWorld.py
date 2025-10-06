@@ -14,6 +14,7 @@ print(positive_affirmation)
 print("This is going to be awesome!")
 
 #Prompts the user for their age
-age = input("Please enter your age: ")
+age = int(input("Please enter your age: "))
 
+#Prints out how old the user will be in 2 years
 
