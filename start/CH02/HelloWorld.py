@@ -5,9 +5,15 @@
 #Prompts the user for their name
 name = input("Please enter your name: ")
 
-positive_affirmation = "This is going to be the best quarter!"
 #Print hello name?
-print(name)
+print("Hello " + name)
 
 #Print a positive affirmation
+positive_affirmation = "This is going to be the best quarter!"
 print(positive_affirmation)
+print("This is going to be awesome!")
+
+#Prompts the user for their age
+age = input("Please enter your age: ")
+
+
