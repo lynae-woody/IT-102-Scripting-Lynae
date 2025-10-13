@@ -3,7 +3,7 @@
 #By Lynae Woody
 
 #First, I am going to ask the user if their day is good or bad
-question = input("Is your day good? Answer y or n: ")
+question = input("Is your day good? Answer y or n: ").lower()
 
 #Second, I will analyze the value and will respond accordingly
 if question == 'y':
