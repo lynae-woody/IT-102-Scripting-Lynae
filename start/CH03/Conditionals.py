@@ -8,4 +8,5 @@ question = input("Is your day good? Answer y or n: ")
 #Second, I will analyze the value and will respond accordingly
 if question == 'y':
     print("Yes it is.")
-
+elif question == 'n':
+    print("Aww that's okay! Tomorrow will be a better day.")
