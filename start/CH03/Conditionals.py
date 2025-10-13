@@ -12,3 +12,5 @@ elif question == 'n':
     print("Aww that's okay! Tomorrow will be a better day.")
 elif question == 'idk':
     print("That's alright.")
+else:
+    print("Please enter a valid answer of y for yes and n for no.")
