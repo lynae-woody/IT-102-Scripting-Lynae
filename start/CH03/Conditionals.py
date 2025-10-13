@@ -10,3 +10,5 @@ if question == 'y':
     print("Yes it is.")
 elif question == 'n':
     print("Aww that's okay! Tomorrow will be a better day.")
+elif question == 'idk':
+    print("That's alright.")
