@@ -24,5 +24,12 @@ answers = []
 
 for q in questions:
     ans = input(q)
-    answers.append({ans})
+    answers.append(ans)
 print(answers)
+
+'''
+Write all answers to the file hackme.txt
+'''
+with open("hackme.txt", "w") as file:
+    for line in answers:
+        file.write(line + "\n")
