@@ -22,4 +22,4 @@ encrypted = rot13(message, shift)
 decrypted = rot13(encrypted, -shift)
 
 print(f"encrypted {encrypted}")
-print(f"encrypted {decrypted}")
+print(f"decrypted {decrypted}")
